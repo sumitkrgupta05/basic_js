@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: rgba(172, 8, 8, 0.733);
+}
+h1 {
+  color: chartreuse;
+  text-align: center;
+  text-decoration: underline double;
+  text-decoration-color: cornflowerblue;
+  word-spacing: 20px;
+}
+#num {
+  position: absolute;
+  top: 10%;
+  left: 40%;
+  word-spacing: 20px;
+  font-size: 30px;
+  font-family: cursive;
+  padding: 15px;
+  box-shadow: 5px 5px 9px white, -5px -5px 9px white;
+}
+span {
+  text-decoration: underline dashed;
+  text-decoration-color: white;
+  text-decoration-thickness: 2px;
+}
+
+/* button  */
+button {
+  position: relative;
+  margin-top: 20%;
+  margin-left: 8%;
+  background-color: turquoise;
+  border: 2px solid red;
+  border-radius: 5px;
+  font-size: 20px;
+  padding: 5px;
+  text-shadow: 5px 5px 5px black;
+}

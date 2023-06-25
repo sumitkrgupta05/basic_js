@@ -1,0 +1,59 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+h1 {
+  color: rgba(245, 0, 0, 0.726);
+  font-family: monospace;
+  background-color: thistle;
+  font-size: 50px;
+  text-align: center;
+  text-decoration: underline;
+  text-decoration-color: tan;
+  text-decoration-style: double;
+  padding: 15px;
+}
+button {
+  float: right;
+  background-color: black;
+  color: aliceblue;
+  border-radius: 30px;
+  border: 5px solid white;
+  font-variant: small-caps;
+  font-weight: bold;
+  padding: 5px;
+  transition: 0.8s;
+}
+button:hover {
+  background-color: white;
+  color: black;
+  border: 5px solid black;
+  cursor: pointer;
+}
+button:active {
+  background-color: red;
+  color: yellow;
+  transition: 0.3s;
+}
+
+form {
+  background-color: yellow;
+  color: rgb(245, 0, 163);
+  padding: 30px;
+}
+label {
+  font-size: 20px;
+  cursor: pointer;
+}
+fieldset {
+  line-height: 40px;
+}
+legend {
+  font-size: 25px;
+  margin-left: 30px;
+  text-decoration: underline dotted;
+}
+input[type="radio"] {
+  accent-color: rgb(255, 0, 0);
+}

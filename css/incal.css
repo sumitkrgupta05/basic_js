@@ -1,0 +1,58 @@
+* {
+  margin: 0%;
+  padding: 0%;
+}
+body {
+  background-color: lawngreen;
+}
+#wrap {
+  background-color: cornflowerblue;
+  height: 30rem;
+  width: 30rem;
+  margin-left: 10%;
+  margin-top: 5%;
+  border-radius: 50px;
+  overflow: hidden;
+}
+
+#scrn {
+  background-color: white;
+  margin-top: 6px;
+  margin-left: 7px;
+  border-radius: 50px;
+  width: 465px;
+  border: 1px solid black;
+  height: 165px;
+  font-size: 20px;
+  font-weight: 700;
+  font-family: cursive;
+}
+span {
+  position: relative;
+  margin-top: 80px;
+  margin-left: 25px;
+  text-decoration: underline dashed;
+}
+table {
+  position: inherit;
+  margin-top: 45px;
+}
+button {
+  background-color: blueviolet;
+  color: chartreuse;
+  height: 3rem;
+  border-radius: 99px;
+  width: 6rem;
+  margin-left: 18px;
+  margin-top: 7px;
+  font-size: 20px;
+  font-weight: bolder;
+}
+button:hover {
+  background-color: red;
+  color: yellow;
+}
+button:active {
+  background-color: yellow;
+  color: red;
+}
